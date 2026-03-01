@@ -69,9 +69,10 @@ function SignUp() {
 
           <form onSubmit={handleSubmit} className="mt-5">
             <div className="mb-3">
-              <label className="form-label">Email</label>
+              <label htmlFor="email" className="form-label">Email</label>
               <input
                 type="email"
+                id="email"
                 className="form-control"
                 name="email"
                 value={inputValue.email}
@@ -81,9 +82,10 @@ function SignUp() {
             </div>
 
             <div className="mb-3">
-              <label className="form-label">Username</label>
+              <label htmlFor="username" className="form-label">Username</label>
               <input
                 type="text"
+                id="username"
                 className="form-control"
                 name="username"
                 value={inputValue.username}
@@ -93,10 +95,11 @@ function SignUp() {
             </div>
 
             <div className="mb-3">
-              <label className="form-label">Password</label>
+              <label htmlFor="password" className="form-label">Password</label>
               <input
                 type="password"
                 className="form-control"
+                id="password"
                 name="password"
                 value={inputValue.password}
                 onChange={handleOnChange}
