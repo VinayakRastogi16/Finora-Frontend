@@ -22,7 +22,7 @@ const Login = () => {
 
     try {
       const { data } = await axios.post(
-        `${process.env.REACT_APP_BACKEND_URL}/login`,
+        `${process.env.BACKEND_URL}/login`,
         inputValue,
         { withCredentials: true },
       );
