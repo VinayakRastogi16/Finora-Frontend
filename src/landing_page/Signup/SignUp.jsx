@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function SignUp() {
-  const navigate = useNavigate();
+  
 
   const [inputValue, setInputValue] = useState({
     email: "",
@@ -30,7 +30,7 @@ function SignUp() {
       );
 
       if (data?.success) {
-        navigate("https://finora-dashboard-y3fy.netlify.app/"); // SPA-safe redirect
+        window.location.href = "https://finora-dashboard-y3fy.netlify.app"; // SPA-safe redirect
       } else {
         setError(data?.message || "Signup failed");
       }

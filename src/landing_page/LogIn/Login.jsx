@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
-  const navigate = useNavigate();
 
   const [inputValue, setInputValue] = useState({
     email: "",
@@ -29,7 +28,7 @@ const Login = () => {
       );
 
       if (data?.success) {
-        navigate("https://finora-dashboard-y3fy.netlify.app/"); // SPA-safe redirect
+        window.location.href = "https://finora-dashboard-y3fy.netlify.app"; // SPA-safe redirect
       } else {
         setError(data?.message || "Invalid credentials");
       }
