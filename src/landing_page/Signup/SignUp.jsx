@@ -30,7 +30,7 @@ function SignUp() {
       );
 
       if (data?.success) {
-        navigate("/"); // SPA-safe redirect
+        navigate("https://finora-dashboard-y3fy.netlify.app/"); // SPA-safe redirect
       } else {
         setError(data?.message || "Signup failed");
       }
