@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
+
 const Login = () => {
 
   const [inputValue, setInputValue] = useState({
@@ -28,7 +29,7 @@ const Login = () => {
       );
 
       if (data?.success) {
-        window.location.href = "https://finora-dashboard-y3fy.netlify.app"; // SPA-safe redirect
+        window.location.href = "https://finora-dashboard-y3fy.netlify.app";
       } else {
         setError(data?.message || "Invalid credentials");
       }
