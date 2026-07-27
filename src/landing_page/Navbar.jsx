@@ -7,7 +7,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg border-bottom sticky-top" style={{backgroundColor:"#ffffff"}}>
         <div class="container-lg">
           <Link class="navbar-brand" to="/">
-            <img src="media/images/logo.svg" style={{width:"50%"}} alt="" />
+            <img src="media/images/logo.svg" style={{width:"70%", marginTop:"2vh"}} alt="logo" />
           </Link>
           <button
             class="navbar-toggler"
@@ -24,7 +24,7 @@ function Navbar() {
             
             <form className="d-flex" style={{marginLeft:"15%"}} >
 
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2  mb-lg-0">
               <li class="nav-item">
                 <Link class="nav-link options" aria-current="page" to="/signup">
                   Signup
