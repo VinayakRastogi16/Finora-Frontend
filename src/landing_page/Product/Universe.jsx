@@ -8,12 +8,12 @@ function Universe() {
         <h1 className="fs-5 mb-5">
           Want to know more about our technology stack? Check out the{" "}
           <Link className="email">
-            Zerodha.tech
+            Finora.tech
           </Link>{" "}
           blog.
         </h1>
 
-        <h3 className="mt-4 pt-3 fs-4 pb-3">The Zerodha Universe</h3>
+        <h3 className="mt-4 pt-3 fs-4 pb-3">The Finora Universe</h3>
         <p>
           Extend your trading and investment experience even further with our
           partner platforms

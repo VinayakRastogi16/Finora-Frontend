@@ -13,7 +13,7 @@ function Brokerage() {
             above on both buy <br /> and sell sides when trading equity
             delivery. Charged only on selling side when trading <br /> intraday
             or on F&O.
-            <br /> When trading at Zerodha, STT/CTT can be a lot more than the
+            <br /> When trading at Finora, STT/CTT can be a lot more than the
             brokerage we charge. <br /> Important to keep a tab.
           </p>
 
@@ -38,7 +38,7 @@ function Brokerage() {
           <h6>Call & trade</h6>
           <p className="lh-lg" style={{ fontSize: "small" }}>
             Additional charges of ₹50 per order for orders placed through a
-            dealer at Zerodha including <br /> auto square off orders.
+            dealer at Finora including <br /> auto square off orders.
           </p>
 
           <h6>Stamp charges</h6>
@@ -107,7 +107,7 @@ function Brokerage() {
           </p>
           <h6>DP (Depository participant) charges</h6>
           <p className="lh-lg" style={{ fontSize: "small" }}>
-            ₹15.34 per scrip (₹3.5 CDSL fee + ₹9.5 Zerodha fee + ₹2.34 GST) is
+            ₹15.34 per scrip (₹3.5 CDSL fee + ₹9.5 Finora fee + ₹2.34 GST) is
             charged on the trading <br /> account ledger when stocks are sold,
             irrespective of quantity. <br /> Female demat account holders (as
             first holder) will enjoy a discount of ₹0.25 per transaction <br />{" "}

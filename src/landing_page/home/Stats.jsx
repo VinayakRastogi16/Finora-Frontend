@@ -12,7 +12,7 @@ function Stats() {
           <div className="mb-5">
             <h5 className="mb-3">Customer-first always</h5>
             <p className="lh-lg">
-              That's why 1.6+ crore customers trust Zerodha <br className="d-lg-none" />with ~ ₹6 <br  className="d-md-none d-sm-none d-lg-flex"/> lakh
+              That's why 1.6+ crore customers trust Finora <br className="d-lg-none" />with ~ ₹6 <br  className="d-md-none d-sm-none d-lg-flex"/> lakh
               crores of equity investments,<br className="d-lg-none" /> making us India’s <br  className="d-md-none d-sm-none d-lg-flex"/> largest broker;
               contributing <br className="d-lg-none" /> to 15% of daily retail <br className="d-md-none d-sm-none d-lg-flex" />exchange volumes in <br className="d-lg-none" /> India.
             </p>
@@ -29,7 +29,7 @@ function Stats() {
           </div>
 
           <div className="mb-5">
-            <h5 className="mb-3">The Zerodha universe</h5>
+            <h5 className="mb-3">The Finora universe</h5>
             <p>
               Not just an app, but a whole ecosystem. Our investments <br  className="d-md-none d-sm-none d-lg-flex"/> in 30+
               fintech startups offer you tailored services <br  className="d-md-none d-sm-none d-lg-flex"/> specific to your
