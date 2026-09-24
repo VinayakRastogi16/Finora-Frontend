@@ -23,7 +23,7 @@ function ProductPage() {
       <RightSection
         imageUrl="media/images/console.png"
         productName="Console"
-        productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
+        productDescription="The central dashboard for your Finora account. Gain insights into your trades and investments with in-depth reports and visualisations."
         learnMore="#"
         googlePlay="https://play.google.com/store/apps/details?id=com.zerodha.coin"
         appStore="https://apps.apple.com/in/app/coin-by-zerodha-mutual-funds/id1392892554"
