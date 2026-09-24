@@ -11,28 +11,25 @@ function Team() {
         <div className="col-6 text-center ">
           <img
             style={{ borderRadius: "100%", width: "45%" }}
-            src="media/images/nithinKamath.jpg"
+            src="media/images/vinayak.png"
             alt=""
           />
-          <h4 className=" fs-5 text-center pt-3  mb-3">Nithin Kamath</h4>
+          <h4 className=" fs-5 text-center pt-3  mb-3">Vinayak Rastogi</h4>
 
           <h6 className="text-muted">
-            Founder, CEO
+            Developer
           </h6>
         </div>
 
         <div className="col-5 text-muted mt-3">
           <p className=" lh-lg">
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
-            hurdles he faced during his decade long stint as a trader.
-            <br /> Today,
-            Zerodha has changed the landscape of the Indian broking <br /> industry.
-          </p>
-          <p className=" lh-lg">
-            He is a member of the SEBI Secondary Market Advisory Committee
-            <br /> (SMAC) and the Market Data Advisory Committee (MDAC).
-          </p>
-          <p className=" lh-lg">Playing basketball is his zen.</p>
+            Vinayak is a Computer Science student and developer who built <b>Finora</b>, a full-stack stock trading platform inspired by the experience of modern investment platforms.
+
+Finora was developed to understand and recreate the core workflow of a real-world brokerage platform—from managing holdings and positions to placing and tracking orders—while gaining hands-on experience with scalable web technologies.
+
+Built using <b>React, Node.js, Express, MongoDB, and Mongoose</b>, <b>Finora</b> reflects his interest in building practical, full-stack applications that solve real-world problems.
+
+Building projects and experimenting with new technologies is his way of turning ideas into working products.</p>
           <p>
             Connect on{" "}
             <Link className="email" to="/">

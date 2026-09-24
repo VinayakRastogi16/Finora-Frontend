@@ -13,7 +13,7 @@ function Footer() {
               
             />
             <p style={{ fontSize: "x-small" }}>
-              © 2010 - 2026, Zerodha Broking <br /> Ltd.
+              © 2010 - 2026, Finora Broking <br /> Ltd.
               <br />
               All rights reserved.
             </p>
@@ -91,8 +91,8 @@ function Footer() {
             <a href="/" className=" hover">Philosophy</a> <br/><br />
             <a href="/" className=" hover">Press & media</a> <br/><br />
             <a href="/" className=" hover">Careers </a> <br/><br />
-            <a href="/" className=" hover">Zerodha Cares (CSR)</a> <br/><br />
-            <a href="/" className=" hover">Zerodha.tech</a> <br/><br />
+            <a href="/" className=" hover">Finora Cares (CSR)</a> <br/><br />
+            <a href="/" className=" hover">Finora.tech</a> <br/><br />
             <a href="/" className=" hover">Open Source</a>
           </div>
           <div className="col mt-4 ">
@@ -109,13 +109,13 @@ function Footer() {
         <div className="footer-text">
           <p>
             Finora Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
-            no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha
+            no.: INZ000031633 CDSL/NSDL: Depository services through Finora
             Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered
-            Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony,
+            Address: Finora Broking Ltd., #153/154, 4th Cross, Dollars Colony,
             Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru -
             560078, Karnataka, India. For any complaints pertaining to
-            securities broking please write to <a href="/" className="email">complaints@zerodha.com</a>, for DP
-            related to <a  href="/" className="email">dp@zerodha.com</a>. Please ensure you carefully read the Risk
+            securities broking please write to <a href="/" className="email">complaints@finora.com</a>, for DP
+            related to <a  href="/" className="email">dp@finora.com</a>. Please ensure you carefully read the Risk
             Disclosure Document as prescribed by SEBI | ICF
             <br />
             <br />
@@ -159,7 +159,7 @@ function Footer() {
             of allotment. In case of non allotment the funds will remain in your
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
+            claiming to be part of Finora and offering such services, please
             create a ticket here.
             <br />
             <br />
